@@ -1,0 +1,1 @@
+# chrome-video-faster-extension
