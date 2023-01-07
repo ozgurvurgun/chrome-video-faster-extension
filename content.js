@@ -5,5 +5,8 @@ chrome.runtime.onMessage.addListener(
         document.querySelector('video').play();
         /* now play three times as fast just for the heck of it */
         document.querySelector('video').playbackRate = 16.0;
+        window.onbeforeunload = function(){
+            return '';
+        };
     }
 );
